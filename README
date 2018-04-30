@@ -1,0 +1,31 @@
+
+==============
+Journey Planer
+==============
+
+Journey planner finds best, most economic route for a list of 5 input airports
+(home airport and 4 destination / stop airports) with chosen aircraft.
+
+This project was created in a Python 3.6 environment.
+
+Checkout GitHub:
+
+https://github.com/vmaikova/journey_planner
+
+In terminal, run the following command:
+
+python planner.py ./input/aircraft.csv ./input/airport.csv ./input/countrycurrency.csv ./input/currencyrates.csv ./input/testinputs.csv ./input/output1.csv
+
+or (to use default inputs):
+
+python planner.py
+
+To run test run:
+
+python test.py
+
+Features
+
+Results will be printed out by default into output.csv  with aircraft followed by input airports,
+best route, cost of the journey and if the route is feasible
+-------
